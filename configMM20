@@ -1,0 +1,18 @@
+# Version "@(#)configMM20	1.1 02/27/20"
+#
+# Para los enlaces 0,1,2,3... sus sendos números de circuitos.
+20
+#
+# Número de traficos ofrecidos especificadas
+1
+# Para cada una de las traficos ofrecidos:
+#
+#   Tráfico 0:
+#
+# 	Especificación del tiempo entre llegadas:
+M 1
+#       Especificación del tiempo demandado:
+M 20
+#	Lista de rutas separadas por espacios, cada una compuesta por enlaces
+#	separados por comas.
+0

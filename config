@@ -1,0 +1,29 @@
+# Version "@(#)config	1.2 02/27/20"
+#
+# Para los enlaces 0,1,2,3... sus sendos números de circuitos.
+10 20 15 
+# Número de traficos ofrecidos especificadas
+2
+# Para cada una de las traficos ofrecidos:
+#
+#    Tráfico 0:
+# 	Especificación del tiempo entre llegadas:
+M 0.1
+#       Especificación del tiempo demandado:
+M 1
+#	Lista de rutas separadas por espacios, cada una compuesta por enlaces
+#	separados por comas. Opcionalmente seguido de letra identificadora del promedio
+#       potencialmente compartido a utilizar (p.e. 0 2 a)
+0 2 a
+#
+#    Tráfico 1:
+M 0.05
+M 1
+1 2 b
+#
+# Opcional especificación de reintentos (incompatible con selección de promedio potencialmente
+# compartido)
+#   Especificación de tiempo entre reintentos
+#M 0.2
+# Probabilidad de persistencia
+#0.5
