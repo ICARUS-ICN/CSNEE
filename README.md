@@ -11,15 +11,21 @@ This is a simulation tool comprising several simulation flavors, such as Monte C
 	CSNEE [OPTIONS|FLAGS] <configuration file>
 
 ### FLAGS: aAbf
-a => compute aggregated average
-A => only computed aggregated average abied to confidence interval requirement
-b => use best alternative route (second one or latter)
-f => write blocking times to file TiemposBloqueos.txt
+* a => compute aggregated average
+* A => only computed aggregated average abied to confidence interval requirement
+* b => use best alternative route (second one or latter)
+* f => write blocking times to file TiemposBloqueos.txt
 
-### OPTIONS: s<seed>q<quality>t<relative tolerance>T<transitory interval>n<reserved circuits>m<minimum sample size>aAbf]
+### OPTIONS: 
+ 	s<seed>
+	q<quality>
+	t<relative tolerance>
+	T<transitory interval>
+	n<reserved circuits>
+	m<minimum sample size>
 
 ## Legal
-Copyright ⓒ 199x–2021 Andrés Suárez González <asuarez@det.uvigo.es>.
+Copyright ⓒ 1997–2021 Andrés Suárez González <asuarez@det.uvigo.es>.
 
 This simulator is licensed under the GNU General Public License, version 2 (GPL-2.0). For information see LICENSE
 
