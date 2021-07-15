@@ -3,6 +3,8 @@ CSNEE
 
 A Simulator of Circuit Switched Networks
 
+![build](https://github.com/ICARUS-ICN/CSNEE/actions/workflows/main.yml/badge.svg)
+
 ## Overview
 
 This is a simulation tool comprising several simulation flavors, such as Monte Carlo (only changing states are simulated) or unit service times, in order to optimize the simulation time. 
